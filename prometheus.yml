@@ -4,6 +4,6 @@ global:
     monitor: 'prometheus'
 
 scrape_configs:
-  - job_name: 'prometheus'
+  - job_name: 'node'
     static_configs:
-      - targets: ['localhost:9090']
+      - targets: ['65.2.33.22:9090/']
